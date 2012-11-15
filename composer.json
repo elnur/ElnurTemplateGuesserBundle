@@ -1,0 +1,19 @@
+{
+    "name": "elnur/template-guesser-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elnur Abdurrakhimov",
+            "email": "elnur@elnur.pro",
+            "homepage": "http://www.elnur.pro"
+        }
+    ],
+    "require": {
+        "sensio/framework-extra-bundle": ">=2.1,<2.3"
+    },
+    "autoload": {
+        "psr-0": { "Elnur\\Bundle\\TemplateGuesserBundle": "" }
+    },
+    "target-dir": "Elnur/Bundle/TemplateGuesserBundle"
+}
